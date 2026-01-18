@@ -1,0 +1,55 @@
+﻿@model List<UniversityLibraryMVC.Models.University>
+@{
+    ViewData["Title"] = "Universities Management";
+    var university = ViewBag.University as UniversityLibraryMVC.Models.University;
+}
+
+<partial name="_UniversityBrandingPartial" model="university" />
+
+<div class="card mb-4">
+    <div class="card-header">
+        <div class="row align-items-center">
+            <div class="col-md-6">
+                <h5 class="card-title mb-0">Universities Management</h5>
+            </div>
+            <div class="col-md-6 text-md-end mt-2 mt-md-0">
+                <a asp-action="Create" class="btn btn-primary">
+                    Add New University
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="card-body">
+        <div class="table-responsive">
+            <table class="table table-hover">
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Primary Color</th>
+                        <th>Secondary Color</th>
+                        <th>Logo Path</th>
+                        <th>Menu Position</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var uni in Model)
+                    {
+                        <tr>
+                            <td>@uni.Name</td>
+                            <td>@uni.PrimaryColor</td>
+                            <td>@uni.SecondaryColor</td>
+                            <td>@uni.LogoPath</td>
+                            <td>@uni.MenuPosition</td>
+                            <td>
+                                <a asp-action="Details" asp-route-id="@uni.UniversityID" class="btn btn-sm btn-info">View</a>
+                                <a asp-action="Edit" asp-route-id="@uni.UniversityID" class="btn btn-sm btn-warning">Edit</a>
+                                <a asp-action="Delete" asp-route-id="@uni.UniversityID" class="btn btn-sm btn-danger" onclick="return confirm('Are you sure you want to delete this university?');">Delete</a>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>

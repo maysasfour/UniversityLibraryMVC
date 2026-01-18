@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<LibraryCatalog generated="2026-01-14 19:41:05" university="Menu University">
+  <Book>
+    <BookID>1</BookID>
+    <ISBN>978-3-16-148410-0</ISBN>
+    <Title>Introduction to Computer Science</Title>
+    <Author>John Smith</Author>
+    <Publisher>Tech Press</Publisher>
+    <PublicationYear>2022</PublicationYear>
+    <Category>Computer Science</Category>
+    <AvailableCopies>4</AvailableCopies>
+    <TotalCopies>5</TotalCopies>
+  </Book>
+  <Book>
+    <BookID>2</BookID>
+    <ISBN>978-1-56-619909-4</ISBN>
+    <Title>Database Systems</Title>
+    <Author>Jane Doe</Author>
+    <Publisher>Data Books</Publisher>
+    <PublicationYear>2023</PublicationYear>
+    <Category>Databases</Category>
+    <AvailableCopies>3</AvailableCopies>
+    <TotalCopies>3</TotalCopies>
+  </Book>
+  <Book>
+    <BookID>3</BookID>
+    <ISBN>978-0-26-203384-8</ISBN>
+    <Title>Web Development Fundamentals</Title>
+    <Author>Robert Brown</Author>
+    <Publisher>Web Publishing</Publisher>
+    <PublicationYear>2021</PublicationYear>
+    <Category>Web Development</Category>
+    <AvailableCopies>4</AvailableCopies>
+    <TotalCopies>4</TotalCopies>
+  </Book>
+</LibraryCatalog>

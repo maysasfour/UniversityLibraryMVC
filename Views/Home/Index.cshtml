@@ -1,0 +1,140 @@
+﻿@model UniversityLibraryMVC.Models.HomeViewModel
+@{
+    ViewData["Title"] = "Home Page";
+    var university = ViewBag.University as UniversityLibraryMVC.Models.University;
+}
+
+<partial name="_UniversityBrandingPartial" model="university" />
+
+<div class="row mb-4">
+    <div class="col-md-3">
+        <div class="card text-white bg-primary">
+            <div class="card-header">Total Books</div>
+            <div class="card-body">
+                <h5 class="card-title">@Model.TotalBooks</h5>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="card text-white bg-success">
+            <div class="card-header">Active Members</div>
+            <div class="card-body">
+                <h5 class="card-title">@Model.TotalMembers</h5>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="card text-white bg-info">
+            <div class="card-header">Active Loans</div>
+            <div class="card-body">
+                <h5 class="card-title">@Model.ActiveLoans</h5>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="card text-white bg-warning">
+            <div class="card-header">Overdue Loans</div>
+            <div class="card-body">
+                <h5 class="card-title">@Model.OverdueLoans</h5>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-8">
+        <div class="card mb-4">
+            <div class="card-header">
+                <h5 class="card-title mb-0">Recent Books</h5>
+            </div>
+            <div class="card-body">
+                <div class="table-responsive">
+                    <table class="table table-hover">
+                        <thead>
+                            <tr>
+                                <th>Title</th>
+                                <th>Author</th>
+                                <th>Category</th>
+                                <th>Available</th>
+                                <th>Actions</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var book in Model.RecentBooks)
+                            {
+                                <tr>
+                                    <td>@book.Title</td>
+                                    <td>@book.Author</td>
+                                    <td>@book.Category</td>
+                                    <td class="@(book.AvailableCopies > 0 ? "text-success fw-bold" : "text-danger fw-bold")">
+                                        @book.AvailableCopies/@book.TotalCopies
+                                    </td>
+                                    <td>
+                                        <a asp-controller="Books" asp-action="Details" asp-route-id="@book.BookID" class="btn btn-sm btn-info">Details</a>
+                                        <a asp-controller="Loans" asp-action="Create" asp-route-bookId="@book.BookID" class="btn btn-sm btn-primary">Borrow</a>
+                                    </td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-4">
+        <div class="card mb-4">
+            <div class="card-header">
+                <h5 class="card-title mb-0">Recent Loans</h5>
+            </div>
+            <div class="card-body">
+                <ul class="list-group list-group-flush">
+                    @foreach (var loan in Model.RecentLoans)
+                    {
+                        <li class="list-group-item">
+                            <div class="d-flex justify-content-between align-items-start">
+                                <div class="flex-grow-1">
+                                    <h6 class="mb-1">@loan.Book?.Title</h6>
+                                    <small class="text-muted">@loan.Member?.Name</small>
+                                    <div class="mt-1">
+                                        <span class="badge bg-@(loan.Status == "Active" ? "primary" : loan.Status == "Returned" ? "success" : "warning")">
+                                            @loan.Status
+                                        </span>
+                                        @if (loan.FineAmount > 0)
+                                        {
+                                            <span class="badge bg-danger">Fine: @loan.FineAmount.ToString("C")</span>
+                                        }
+                                    </div>
+                                </div>
+                                <div class="ms-3">
+                                    <a asp-controller="Loans" asp-action="Details" asp-route-id="@loan.LoanID" class="btn btn-sm btn-outline-primary">
+                                        <i class="bi bi-eye"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+                    }
+                </ul>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-header">
+                <h5 class="card-title mb-0">Quick Actions</h5>
+            </div>
+            <div class="card-body">
+                <div class="d-grid gap-2">
+                    <a asp-controller="Books" asp-action="Create" class="btn btn-primary">
+                        <i class="bi bi-book me-2"></i>Add New Book
+                    </a>
+                    <a asp-controller="Members" asp-action="Create" class="btn btn-success">
+                        <i class="bi bi-person me-2"></i>Add New Member
+                    </a>
+                    <a asp-controller="Loans" asp-action="Create" class="btn btn-info text-white">
+                        <i class="bi bi-arrow-left-right me-2"></i>New Loan
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

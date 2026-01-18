@@ -1,0 +1,57 @@
+﻿<script src="~/lib/jquery-validation/dist/jquery.validate.min.js"></script>
+<script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script>
+<script>
+    $(document).ready(function() {
+        // Custom validation methods
+        $.validator.addMethod("validIsbn", function(value, element) {
+            if (!value) return true;
+            var regex = /^(?:ISBN(?:-1[03])?:? )?(?=[-0-9 ]{17}$|[-0-9X ]{13}$|[0-9X]{10}$)(?:97[89][- ]?)?[0-9]{1,5}[- ]?(?:[0-9]+[- ]?){2}[0-9X]$/;
+            return regex.test(value);
+        }, "Invalid ISBN format");
+
+        $.validator.addMethod("validColor", function(value, element) {
+            if (!value) return true;
+            var regex = /^#([A-Fa-f0-9]{6}|[A-Fa-f0-9]{3})$/;
+            return regex.test(value);
+        }, "Invalid color format (use #RRGGBB)");
+
+        $.validator.addMethod("validPhone", function(value, element) {
+            if (!value) return true;
+            var regex = /^[\+]?[(]?[0-9]{3}[)]?[-\s\.]?[0-9]{3}[-\s\.]?[0-9]{4,6}$/;
+            return regex.test(value);
+        }, "Invalid phone number format");
+
+        $('form').each(function() {
+            $(this).validate({
+                rules: {
+                    ISBN: {
+                        validIsbn: true
+                    },
+                    PrimaryColor: {
+                        validColor: true
+                    },
+                    SecondaryColor: {
+                        validColor: true
+                    },
+                    Phone: {
+                        validPhone: true
+                    }
+                },
+                messages: {
+                    ISBN: {
+                        validIsbn: "Please enter a valid ISBN (e.g., 978-3-16-148410-0)"
+                    },
+                    PrimaryColor: {
+                        validColor: "Please enter a valid color code (e.g., #003366)"
+                    },
+                    SecondaryColor: {
+                        validColor: "Please enter a valid color code (e.g., #FFD700)"
+                    },
+                    Phone: {
+                        validPhone: "Please enter a valid phone number"
+                    }
+                }
+            });
+        });
+    });
+</script>

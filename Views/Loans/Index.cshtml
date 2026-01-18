@@ -1,0 +1,74 @@
+﻿@model List<UniversityLibraryMVC.Models.Loan>
+@{
+    ViewData["Title"] = "Loans Management";
+    var university = ViewBag.University as UniversityLibraryMVC.Models.University;
+}
+
+<partial name="_UniversityBrandingPartial" model="university" />
+
+<div class="card mb-4">
+    <div class="card-header">
+        <div class="row align-items-center">
+            <div class="col-md-6">
+                <h5 class="card-title mb-0">Loans Management</h5>
+            </div>
+            <div class="col-md-6 text-md-end mt-2 mt-md-0">
+                <a asp-action="Create" class="btn btn-primary">
+                    New Loan
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="card-body">
+        <div class="table-responsive">
+            <table class="table table-hover">
+                <thead>
+                    <tr>
+                        <th>Book</th>
+                        <th>Member</th>
+                        <th>Loan Date</th>
+                        <th>Due Date</th>
+                        <th>Status</th>
+                        <th>Fine</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var loan in Model)
+                    {
+                        <tr>
+                            <td>@loan.Book?.Title</td>
+                            <td>@loan.Member?.Name</td>
+                            <td>@loan.LoanDate.ToString("yyyy-MM-dd")</td>
+                            <td>@loan.DueDate.ToString("yyyy-MM-dd")</td>
+                            <td>
+                                @if (loan.Status == "Active")
+                                {
+                                    <span class="badge bg-primary">Active</span>
+                                }
+                                else if (loan.Status == "Returned")
+                                {
+                                    <span class="badge bg-success">Returned</span>
+                                }
+                                else
+                                {
+                                    <span class="badge bg-warning">Overdue</span>
+                                }
+                            </td>
+                            <td>@(loan.FineAmount > 0 ? loan.FineAmount.ToString("C") : "-")</td>
+                            <td>
+                                <a asp-action="Details" asp-route-id="@loan.LoanID" class="btn btn-sm btn-info">View</a>
+                                @if (loan.Status == "Active")
+                                {
+                                    <a asp-action="Return" asp-route-id="@loan.LoanID" class="btn btn-sm btn-success" onclick="return confirm('Return this book?');">Return</a>
+                                }
+                                <a asp-action="Edit" asp-route-id="@loan.LoanID" class="btn btn-sm btn-warning">Edit</a>
+                                <a asp-action="Delete" asp-route-id="@loan.LoanID" class="btn btn-sm btn-danger" onclick="return confirm('Delete this loan?');">Delete</a>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>

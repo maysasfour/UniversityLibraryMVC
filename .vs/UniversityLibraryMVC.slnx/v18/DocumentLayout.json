@@ -1,0 +1,1136 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\HP\\source\\repos\\UniversityLibraryMVC\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{83E2D559-34A9-C984-6F85-60A530CADF8C}|UniversityLibraryMVC.csproj|c:\\users\\hp\\source\\repos\\universitylibrarymvc\\views\\books\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{83E2D559-34A9-C984-6F85-60A530CADF8C}|UniversityLibraryMVC.csproj|solutionrelative:views\\books\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83E2D559-34A9-C984-6F85-60A530CADF8C}|UniversityLibraryMVC.csproj|c:\\users\\hp\\source\\repos\\universitylibrarymvc\\controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{83E2D559-34A9-C984-6F85-60A530CADF8C}|UniversityLibraryMVC.csproj|solutionrelative:controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83E2D559-34A9-C984-6F85-60A530CADF8C}|UniversityLibraryMVC.csproj|c:\\users\\hp\\source\\repos\\universitylibrarymvc\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{83E2D559-34A9-C984-6F85-60A530CADF8C}|UniversityLibraryMVC.csproj|solutionrelative:wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83E2D559-34A9-C984-6F85-60A530CADF8C}|UniversityLibraryMVC.csproj|c:\\users\\hp\\source\\repos\\universitylibrarymvc\\wwwroot\\js\\xml.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{83E2D559-34A9-C984-6F85-60A530CADF8C}|UniversityLibraryMVC.csproj|solutionrelative:wwwroot\\js\\xml.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83E2D559-34A9-C984-6F85-60A530CADF8C}|UniversityLibraryMVC.csproj|c:\\users\\hp\\source\\repos\\universitylibrarymvc\\wwwroot\\js\\validation.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{83E2D559-34A9-C984-6F85-60A530CADF8C}|UniversityLibraryMVC.csproj|solutionrelative:wwwroot\\js\\validation.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83E2D559-34A9-C984-6F85-60A530CADF8C}|UniversityLibraryMVC.csproj|c:\\users\\hp\\source\\repos\\universitylibrarymvc\\wwwroot\\js\\university.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{83E2D559-34A9-C984-6F85-60A530CADF8C}|UniversityLibraryMVC.csproj|solutionrelative:wwwroot\\js\\university.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83E2D559-34A9-C984-6F85-60A530CADF8C}|UniversityLibraryMVC.csproj|c:\\users\\hp\\source\\repos\\universitylibrarymvc\\services\\bookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{83E2D559-34A9-C984-6F85-60A530CADF8C}|UniversityLibraryMVC.csproj|solutionrelative:services\\bookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83E2D559-34A9-C984-6F85-60A530CADF8C}|UniversityLibraryMVC.csproj|c:\\users\\hp\\source\\repos\\universitylibrarymvc\\services\\universityservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{83E2D559-34A9-C984-6F85-60A530CADF8C}|UniversityLibraryMVC.csproj|solutionrelative:services\\universityservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83E2D559-34A9-C984-6F85-60A530CADF8C}|UniversityLibraryMVC.csproj|c:\\users\\hp\\source\\repos\\universitylibrarymvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{83E2D559-34A9-C984-6F85-60A530CADF8C}|UniversityLibraryMVC.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83E2D559-34A9-C984-6F85-60A530CADF8C}|UniversityLibraryMVC.csproj|c:\\users\\hp\\source\\repos\\universitylibrarymvc\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{83E2D559-34A9-C984-6F85-60A530CADF8C}|UniversityLibraryMVC.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83E2D559-34A9-C984-6F85-60A530CADF8C}|UniversityLibraryMVC.csproj|c:\\users\\hp\\source\\repos\\universitylibrarymvc\\views\\xml\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{83E2D559-34A9-C984-6F85-60A530CADF8C}|UniversityLibraryMVC.csproj|solutionrelative:views\\xml\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83E2D559-34A9-C984-6F85-60A530CADF8C}|UniversityLibraryMVC.csproj|c:\\users\\hp\\source\\repos\\universitylibrarymvc\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{83E2D559-34A9-C984-6F85-60A530CADF8C}|UniversityLibraryMVC.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83E2D559-34A9-C984-6F85-60A530CADF8C}|UniversityLibraryMVC.csproj|c:\\users\\hp\\source\\repos\\universitylibrarymvc\\dbcontext\\librarydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{83E2D559-34A9-C984-6F85-60A530CADF8C}|UniversityLibraryMVC.csproj|solutionrelative:dbcontext\\librarydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83E2D559-34A9-C984-6F85-60A530CADF8C}|UniversityLibraryMVC.csproj|c:\\users\\hp\\source\\repos\\universitylibrarymvc\\services\\ibookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{83E2D559-34A9-C984-6F85-60A530CADF8C}|UniversityLibraryMVC.csproj|solutionrelative:services\\ibookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83E2D559-34A9-C984-6F85-60A530CADF8C}|UniversityLibraryMVC.csproj|c:\\users\\hp\\source\\repos\\universitylibrarymvc\\views\\loans\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{83E2D559-34A9-C984-6F85-60A530CADF8C}|UniversityLibraryMVC.csproj|solutionrelative:views\\loans\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83E2D559-34A9-C984-6F85-60A530CADF8C}|UniversityLibraryMVC.csproj|c:\\users\\hp\\source\\repos\\universitylibrarymvc\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{83E2D559-34A9-C984-6F85-60A530CADF8C}|UniversityLibraryMVC.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83E2D559-34A9-C984-6F85-60A530CADF8C}|UniversityLibraryMVC.csproj|c:\\users\\hp\\source\\repos\\universitylibrarymvc\\views\\books\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{83E2D559-34A9-C984-6F85-60A530CADF8C}|UniversityLibraryMVC.csproj|solutionrelative:views\\books\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83E2D559-34A9-C984-6F85-60A530CADF8C}|UniversityLibraryMVC.csproj|c:\\users\\hp\\source\\repos\\universitylibrarymvc\\views\\books\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{83E2D559-34A9-C984-6F85-60A530CADF8C}|UniversityLibraryMVC.csproj|solutionrelative:views\\books\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83E2D559-34A9-C984-6F85-60A530CADF8C}|UniversityLibraryMVC.csproj|c:\\users\\hp\\source\\repos\\universitylibrarymvc\\views\\books\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{83E2D559-34A9-C984-6F85-60A530CADF8C}|UniversityLibraryMVC.csproj|solutionrelative:views\\books\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83E2D559-34A9-C984-6F85-60A530CADF8C}|UniversityLibraryMVC.csproj|c:\\users\\hp\\source\\repos\\universitylibrarymvc\\views\\books\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{83E2D559-34A9-C984-6F85-60A530CADF8C}|UniversityLibraryMVC.csproj|solutionrelative:views\\books\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83E2D559-34A9-C984-6F85-60A530CADF8C}|UniversityLibraryMVC.csproj|c:\\users\\hp\\source\\repos\\universitylibrarymvc\\services\\xnservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{83E2D559-34A9-C984-6F85-60A530CADF8C}|UniversityLibraryMVC.csproj|solutionrelative:services\\xnservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83E2D559-34A9-C984-6F85-60A530CADF8C}|UniversityLibraryMVC.csproj|c:\\users\\hp\\source\\repos\\universitylibrarymvc\\services\\xmlservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{83E2D559-34A9-C984-6F85-60A530CADF8C}|UniversityLibraryMVC.csproj|solutionrelative:services\\xmlservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83E2D559-34A9-C984-6F85-60A530CADF8C}|UniversityLibraryMVC.csproj|c:\\users\\hp\\source\\repos\\universitylibrarymvc\\services\\memberservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{83E2D559-34A9-C984-6F85-60A530CADF8C}|UniversityLibraryMVC.csproj|solutionrelative:services\\memberservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83E2D559-34A9-C984-6F85-60A530CADF8C}|UniversityLibraryMVC.csproj|c:\\users\\hp\\source\\repos\\universitylibrarymvc\\services\\loanservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{83E2D559-34A9-C984-6F85-60A530CADF8C}|UniversityLibraryMVC.csproj|solutionrelative:services\\loanservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83E2D559-34A9-C984-6F85-60A530CADF8C}|UniversityLibraryMVC.csproj|c:\\users\\hp\\source\\repos\\universitylibrarymvc\\services\\ixnservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{83E2D559-34A9-C984-6F85-60A530CADF8C}|UniversityLibraryMVC.csproj|solutionrelative:services\\ixnservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83E2D559-34A9-C984-6F85-60A530CADF8C}|UniversityLibraryMVC.csproj|c:\\users\\hp\\source\\repos\\universitylibrarymvc\\services\\iuniversityservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{83E2D559-34A9-C984-6F85-60A530CADF8C}|UniversityLibraryMVC.csproj|solutionrelative:services\\iuniversityservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83E2D559-34A9-C984-6F85-60A530CADF8C}|UniversityLibraryMVC.csproj|c:\\users\\hp\\source\\repos\\universitylibrarymvc\\services\\imemberservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{83E2D559-34A9-C984-6F85-60A530CADF8C}|UniversityLibraryMVC.csproj|solutionrelative:services\\imemberservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83E2D559-34A9-C984-6F85-60A530CADF8C}|UniversityLibraryMVC.csproj|c:\\users\\hp\\source\\repos\\universitylibrarymvc\\services\\iloanservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{83E2D559-34A9-C984-6F85-60A530CADF8C}|UniversityLibraryMVC.csproj|solutionrelative:services\\iloanservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83E2D559-34A9-C984-6F85-60A530CADF8C}|UniversityLibraryMVC.csproj|c:\\users\\hp\\source\\repos\\universitylibrarymvc\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{83E2D559-34A9-C984-6F85-60A530CADF8C}|UniversityLibraryMVC.csproj|solutionrelative:models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83E2D559-34A9-C984-6F85-60A530CADF8C}|UniversityLibraryMVC.csproj|c:\\users\\hp\\source\\repos\\universitylibrarymvc\\models\\university.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{83E2D559-34A9-C984-6F85-60A530CADF8C}|UniversityLibraryMVC.csproj|solutionrelative:models\\university.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83E2D559-34A9-C984-6F85-60A530CADF8C}|UniversityLibraryMVC.csproj|c:\\users\\hp\\source\\repos\\universitylibrarymvc\\models\\member.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{83E2D559-34A9-C984-6F85-60A530CADF8C}|UniversityLibraryMVC.csproj|solutionrelative:models\\member.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83E2D559-34A9-C984-6F85-60A530CADF8C}|UniversityLibraryMVC.csproj|c:\\users\\hp\\source\\repos\\universitylibrarymvc\\models\\loanviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{83E2D559-34A9-C984-6F85-60A530CADF8C}|UniversityLibraryMVC.csproj|solutionrelative:models\\loanviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83E2D559-34A9-C984-6F85-60A530CADF8C}|UniversityLibraryMVC.csproj|c:\\users\\hp\\source\\repos\\universitylibrarymvc\\models\\loan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{83E2D559-34A9-C984-6F85-60A530CADF8C}|UniversityLibraryMVC.csproj|solutionrelative:models\\loan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83E2D559-34A9-C984-6F85-60A530CADF8C}|UniversityLibraryMVC.csproj|c:\\users\\hp\\source\\repos\\universitylibrarymvc\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{83E2D559-34A9-C984-6F85-60A530CADF8C}|UniversityLibraryMVC.csproj|solutionrelative:models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83E2D559-34A9-C984-6F85-60A530CADF8C}|UniversityLibraryMVC.csproj|c:\\users\\hp\\source\\repos\\universitylibrarymvc\\models\\homeviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{83E2D559-34A9-C984-6F85-60A530CADF8C}|UniversityLibraryMVC.csproj|solutionrelative:models\\homeviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83E2D559-34A9-C984-6F85-60A530CADF8C}|UniversityLibraryMVC.csproj|c:\\users\\hp\\source\\repos\\universitylibrarymvc\\models\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{83E2D559-34A9-C984-6F85-60A530CADF8C}|UniversityLibraryMVC.csproj|solutionrelative:models\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83E2D559-34A9-C984-6F85-60A530CADF8C}|UniversityLibraryMVC.csproj|c:\\users\\hp\\source\\repos\\universitylibrarymvc\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{83E2D559-34A9-C984-6F85-60A530CADF8C}|UniversityLibraryMVC.csproj|solutionrelative:models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83E2D559-34A9-C984-6F85-60A530CADF8C}|UniversityLibraryMVC.csproj|c:\\users\\hp\\source\\repos\\universitylibrarymvc\\migrations\\librarydbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{83E2D559-34A9-C984-6F85-60A530CADF8C}|UniversityLibraryMVC.csproj|solutionrelative:migrations\\librarydbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83E2D559-34A9-C984-6F85-60A530CADF8C}|UniversityLibraryMVC.csproj|c:\\users\\hp\\source\\repos\\universitylibrarymvc\\migrations\\20260114165724_addidentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{83E2D559-34A9-C984-6F85-60A530CADF8C}|UniversityLibraryMVC.csproj|solutionrelative:migrations\\20260114165724_addidentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83E2D559-34A9-C984-6F85-60A530CADF8C}|UniversityLibraryMVC.csproj|c:\\users\\hp\\source\\repos\\universitylibrarymvc\\migrations\\20260114160703_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{83E2D559-34A9-C984-6F85-60A530CADF8C}|UniversityLibraryMVC.csproj|solutionrelative:migrations\\20260114160703_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83E2D559-34A9-C984-6F85-60A530CADF8C}|UniversityLibraryMVC.csproj|c:\\users\\hp\\source\\repos\\universitylibrarymvc\\controllers\\xmlcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{83E2D559-34A9-C984-6F85-60A530CADF8C}|UniversityLibraryMVC.csproj|solutionrelative:controllers\\xmlcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83E2D559-34A9-C984-6F85-60A530CADF8C}|UniversityLibraryMVC.csproj|c:\\users\\hp\\source\\repos\\universitylibrarymvc\\controllers\\universitycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{83E2D559-34A9-C984-6F85-60A530CADF8C}|UniversityLibraryMVC.csproj|solutionrelative:controllers\\universitycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83E2D559-34A9-C984-6F85-60A530CADF8C}|UniversityLibraryMVC.csproj|c:\\users\\hp\\source\\repos\\universitylibrarymvc\\controllers\\testcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{83E2D559-34A9-C984-6F85-60A530CADF8C}|UniversityLibraryMVC.csproj|solutionrelative:controllers\\testcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83E2D559-34A9-C984-6F85-60A530CADF8C}|UniversityLibraryMVC.csproj|c:\\users\\hp\\source\\repos\\universitylibrarymvc\\controllers\\memberscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{83E2D559-34A9-C984-6F85-60A530CADF8C}|UniversityLibraryMVC.csproj|solutionrelative:controllers\\memberscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83E2D559-34A9-C984-6F85-60A530CADF8C}|UniversityLibraryMVC.csproj|c:\\users\\hp\\source\\repos\\universitylibrarymvc\\controllers\\loanscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{83E2D559-34A9-C984-6F85-60A530CADF8C}|UniversityLibraryMVC.csproj|solutionrelative:controllers\\loanscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83E2D559-34A9-C984-6F85-60A530CADF8C}|UniversityLibraryMVC.csproj|c:\\users\\hp\\source\\repos\\universitylibrarymvc\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{83E2D559-34A9-C984-6F85-60A530CADF8C}|UniversityLibraryMVC.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83E2D559-34A9-C984-6F85-60A530CADF8C}|UniversityLibraryMVC.csproj|c:\\users\\hp\\source\\repos\\universitylibrarymvc\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{83E2D559-34A9-C984-6F85-60A530CADF8C}|UniversityLibraryMVC.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83E2D559-34A9-C984-6F85-60A530CADF8C}|UniversityLibraryMVC.csproj|c:\\users\\hp\\source\\repos\\universitylibrarymvc\\views\\xml\\import.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{83E2D559-34A9-C984-6F85-60A530CADF8C}|UniversityLibraryMVC.csproj|solutionrelative:views\\xml\\import.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83E2D559-34A9-C984-6F85-60A530CADF8C}|UniversityLibraryMVC.csproj|c:\\users\\hp\\source\\repos\\universitylibrarymvc\\views\\xml\\export.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{83E2D559-34A9-C984-6F85-60A530CADF8C}|UniversityLibraryMVC.csproj|solutionrelative:views\\xml\\export.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83E2D559-34A9-C984-6F85-60A530CADF8C}|UniversityLibraryMVC.csproj|c:\\users\\hp\\source\\repos\\universitylibrarymvc\\views\\universities\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{83E2D559-34A9-C984-6F85-60A530CADF8C}|UniversityLibraryMVC.csproj|solutionrelative:views\\universities\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83E2D559-34A9-C984-6F85-60A530CADF8C}|UniversityLibraryMVC.csproj|c:\\users\\hp\\source\\repos\\universitylibrarymvc\\views\\universities\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{83E2D559-34A9-C984-6F85-60A530CADF8C}|UniversityLibraryMVC.csproj|solutionrelative:views\\universities\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83E2D559-34A9-C984-6F85-60A530CADF8C}|UniversityLibraryMVC.csproj|c:\\users\\hp\\source\\repos\\universitylibrarymvc\\views\\universities\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{83E2D559-34A9-C984-6F85-60A530CADF8C}|UniversityLibraryMVC.csproj|solutionrelative:views\\universities\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83E2D559-34A9-C984-6F85-60A530CADF8C}|UniversityLibraryMVC.csproj|c:\\users\\hp\\source\\repos\\universitylibrarymvc\\views\\universities\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{83E2D559-34A9-C984-6F85-60A530CADF8C}|UniversityLibraryMVC.csproj|solutionrelative:views\\universities\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83E2D559-34A9-C984-6F85-60A530CADF8C}|UniversityLibraryMVC.csproj|c:\\users\\hp\\source\\repos\\universitylibrarymvc\\views\\universities\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{83E2D559-34A9-C984-6F85-60A530CADF8C}|UniversityLibraryMVC.csproj|solutionrelative:views\\universities\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83E2D559-34A9-C984-6F85-60A530CADF8C}|UniversityLibraryMVC.csproj|c:\\users\\hp\\source\\repos\\universitylibrarymvc\\views\\members\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{83E2D559-34A9-C984-6F85-60A530CADF8C}|UniversityLibraryMVC.csproj|solutionrelative:views\\members\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83E2D559-34A9-C984-6F85-60A530CADF8C}|UniversityLibraryMVC.csproj|c:\\users\\hp\\source\\repos\\universitylibrarymvc\\views\\members\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{83E2D559-34A9-C984-6F85-60A530CADF8C}|UniversityLibraryMVC.csproj|solutionrelative:views\\members\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83E2D559-34A9-C984-6F85-60A530CADF8C}|UniversityLibraryMVC.csproj|c:\\users\\hp\\source\\repos\\universitylibrarymvc\\views\\members\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{83E2D559-34A9-C984-6F85-60A530CADF8C}|UniversityLibraryMVC.csproj|solutionrelative:views\\members\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83E2D559-34A9-C984-6F85-60A530CADF8C}|UniversityLibraryMVC.csproj|c:\\users\\hp\\source\\repos\\universitylibrarymvc\\views\\members\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{83E2D559-34A9-C984-6F85-60A530CADF8C}|UniversityLibraryMVC.csproj|solutionrelative:views\\members\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83E2D559-34A9-C984-6F85-60A530CADF8C}|UniversityLibraryMVC.csproj|c:\\users\\hp\\source\\repos\\universitylibrarymvc\\views\\members\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{83E2D559-34A9-C984-6F85-60A530CADF8C}|UniversityLibraryMVC.csproj|solutionrelative:views\\members\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83E2D559-34A9-C984-6F85-60A530CADF8C}|UniversityLibraryMVC.csproj|c:\\users\\hp\\source\\repos\\universitylibrarymvc\\views\\loans\\return.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{83E2D559-34A9-C984-6F85-60A530CADF8C}|UniversityLibraryMVC.csproj|solutionrelative:views\\loans\\return.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83E2D559-34A9-C984-6F85-60A530CADF8C}|UniversityLibraryMVC.csproj|c:\\users\\hp\\source\\repos\\universitylibrarymvc\\views\\loans\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{83E2D559-34A9-C984-6F85-60A530CADF8C}|UniversityLibraryMVC.csproj|solutionrelative:views\\loans\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83E2D559-34A9-C984-6F85-60A530CADF8C}|UniversityLibraryMVC.csproj|c:\\users\\hp\\source\\repos\\universitylibrarymvc\\views\\loans\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{83E2D559-34A9-C984-6F85-60A530CADF8C}|UniversityLibraryMVC.csproj|solutionrelative:views\\loans\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83E2D559-34A9-C984-6F85-60A530CADF8C}|UniversityLibraryMVC.csproj|c:\\users\\hp\\source\\repos\\universitylibrarymvc\\views\\loans\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{83E2D559-34A9-C984-6F85-60A530CADF8C}|UniversityLibraryMVC.csproj|solutionrelative:views\\loans\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83E2D559-34A9-C984-6F85-60A530CADF8C}|UniversityLibraryMVC.csproj|c:\\users\\hp\\source\\repos\\universitylibrarymvc\\views\\loans\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{83E2D559-34A9-C984-6F85-60A530CADF8C}|UniversityLibraryMVC.csproj|solutionrelative:views\\loans\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83E2D559-34A9-C984-6F85-60A530CADF8C}|UniversityLibraryMVC.csproj|c:\\users\\hp\\source\\repos\\universitylibrarymvc\\views\\test\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{83E2D559-34A9-C984-6F85-60A530CADF8C}|UniversityLibraryMVC.csproj|solutionrelative:views\\test\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83E2D559-34A9-C984-6F85-60A530CADF8C}|UniversityLibraryMVC.csproj|c:\\users\\hp\\source\\repos\\universitylibrarymvc\\sqlquery1.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|",
+      "RelativeMoniker": "D:0:0:{83E2D559-34A9-C984-6F85-60A530CADF8C}|UniversityLibraryMVC.csproj|solutionrelative:sqlquery1.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83E2D559-34A9-C984-6F85-60A530CADF8C}|UniversityLibraryMVC.csproj|c:\\users\\hp\\source\\repos\\universitylibrarymvc\\sqlquery4.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
+      "RelativeMoniker": "D:0:0:{83E2D559-34A9-C984-6F85-60A530CADF8C}|UniversityLibraryMVC.csproj|solutionrelative:sqlquery4.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83E2D559-34A9-C984-6F85-60A530CADF8C}|UniversityLibraryMVC.csproj|c:\\users\\hp\\source\\repos\\universitylibrarymvc\\universitylibrarymvc.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{83E2D559-34A9-C984-6F85-60A530CADF8C}|UniversityLibraryMVC.csproj|solutionrelative:universitylibrarymvc.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 10,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{6d4078d1-5951-4ed1-ac0e-0a8099c1cce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "site.js",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\UniversityLibraryMVC\\wwwroot\\js\\site.js",
+              "RelativeDocumentMoniker": "wwwroot\\js\\site.js",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\UniversityLibraryMVC\\wwwroot\\js\\site.js",
+              "RelativeToolTip": "wwwroot\\js\\site.js",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-01-16T00:27:38.134Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "xml.js",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\UniversityLibraryMVC\\wwwroot\\js\\xml.js",
+              "RelativeDocumentMoniker": "wwwroot\\js\\xml.js",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\UniversityLibraryMVC\\wwwroot\\js\\xml.js",
+              "RelativeToolTip": "wwwroot\\js\\xml.js",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-01-16T00:27:20.396Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "university.js",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\UniversityLibraryMVC\\wwwroot\\js\\university.js",
+              "RelativeDocumentMoniker": "wwwroot\\js\\university.js",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\UniversityLibraryMVC\\wwwroot\\js\\university.js",
+              "RelativeToolTip": "wwwroot\\js\\university.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-01-16T00:26:54.396Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "validation.js",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\UniversityLibraryMVC\\wwwroot\\js\\validation.js",
+              "RelativeDocumentMoniker": "wwwroot\\js\\validation.js",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\UniversityLibraryMVC\\wwwroot\\js\\validation.js",
+              "RelativeToolTip": "wwwroot\\js\\validation.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-01-16T00:26:31.106Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BooksController.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\UniversityLibraryMVC\\Controllers\\BooksController.cs",
+              "RelativeDocumentMoniker": "Controllers\\BooksController.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\UniversityLibraryMVC\\Controllers\\BooksController.cs",
+              "RelativeToolTip": "Controllers\\BooksController.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAYwCkAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-15T18:48:44.758Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\UniversityLibraryMVC\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\UniversityLibraryMVC\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-01-15T17:49:54.312Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\UniversityLibraryMVC\\Views\\Books\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Books\\Create.cshtml",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\UniversityLibraryMVC\\Views\\Books\\Create.cshtml",
+              "RelativeToolTip": "Views\\Books\\Create.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAADgAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-15T18:50:42.595Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\UniversityLibraryMVC\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\UniversityLibraryMVC\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAADMAAAAAAAAAAAAAABwAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-15T17:41:15.035Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\UniversityLibraryMVC\\Views\\Xml\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Xml\\Index.cshtml",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\UniversityLibraryMVC\\Views\\Xml\\Index.cshtml",
+              "RelativeToolTip": "Views\\Xml\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-15T22:49:30.608Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "UniversityService.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\UniversityLibraryMVC\\Services\\UniversityService.cs",
+              "RelativeDocumentMoniker": "Services\\UniversityService.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\UniversityLibraryMVC\\Services\\UniversityService.cs",
+              "RelativeToolTip": "Services\\UniversityService.cs",
+              "ViewState": "AgIAADsAAAAAAAAAAAAswE0AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-15T18:10:55.684Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "BookService.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\UniversityLibraryMVC\\Services\\BookService.cs",
+              "RelativeDocumentMoniker": "Services\\BookService.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\UniversityLibraryMVC\\Services\\BookService.cs",
+              "RelativeToolTip": "Services\\BookService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAG4AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-15T19:44:09.864Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\UniversityLibraryMVC\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\UniversityLibraryMVC\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAGMAAAAAAAAAAAAAABAAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-16T00:17:17.204Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "LibraryDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\UniversityLibraryMVC\\DbContext\\LibraryDbContext.cs",
+              "RelativeDocumentMoniker": "DbContext\\LibraryDbContext.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\UniversityLibraryMVC\\DbContext\\LibraryDbContext.cs",
+              "RelativeToolTip": "DbContext\\LibraryDbContext.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwAkAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-15T17:46:22.834Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "IBookService.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\UniversityLibraryMVC\\Services\\IBookService.cs",
+              "RelativeDocumentMoniker": "Services\\IBookService.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\UniversityLibraryMVC\\Services\\IBookService.cs",
+              "RelativeToolTip": "Services\\IBookService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-15T19:44:37.684Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\UniversityLibraryMVC\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\UniversityLibraryMVC\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAIsAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-15T18:51:15.743Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\UniversityLibraryMVC\\Views\\Books\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Books\\Index.cshtml",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\UniversityLibraryMVC\\Views\\Books\\Index.cshtml",
+              "RelativeToolTip": "Views\\Books\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-15T18:51:08.83Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\UniversityLibraryMVC\\Views\\Books\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\Books\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\UniversityLibraryMVC\\Views\\Books\\Edit.cshtml",
+              "RelativeToolTip": "Views\\Books\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-15T18:51:02.678Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\UniversityLibraryMVC\\Views\\Books\\Details.cshtml",
+              "RelativeDocumentMoniker": "Views\\Books\\Details.cshtml",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\UniversityLibraryMVC\\Views\\Books\\Details.cshtml",
+              "RelativeToolTip": "Views\\Books\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADkAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-15T18:50:56.842Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\UniversityLibraryMVC\\Views\\Loans\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Loans\\Create.cshtml",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\UniversityLibraryMVC\\Views\\Loans\\Create.cshtml",
+              "RelativeToolTip": "Views\\Loans\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-15T18:51:23.725Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\UniversityLibraryMVC\\Views\\Books\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Views\\Books\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\UniversityLibraryMVC\\Views\\Books\\Delete.cshtml",
+              "RelativeToolTip": "Views\\Books\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-15T18:50:51.326Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "XnService.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\UniversityLibraryMVC\\Services\\XnService.cs",
+              "RelativeDocumentMoniker": "Services\\XnService.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\UniversityLibraryMVC\\Services\\XnService.cs",
+              "RelativeToolTip": "Services\\XnService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-15T19:39:56.877Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "XmlService.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\UniversityLibraryMVC\\Services\\XmlService.cs",
+              "RelativeDocumentMoniker": "Services\\XmlService.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\UniversityLibraryMVC\\Services\\XmlService.cs",
+              "RelativeToolTip": "Services\\XmlService.cs",
+              "ViewState": "AgIAAOMAAAAAAAAAAAAswIAAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-15T18:50:29.16Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "MemberService.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\UniversityLibraryMVC\\Services\\MemberService.cs",
+              "RelativeDocumentMoniker": "Services\\MemberService.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\UniversityLibraryMVC\\Services\\MemberService.cs",
+              "RelativeToolTip": "Services\\MemberService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-15T19:45:08.342Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "LoanService.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\UniversityLibraryMVC\\Services\\LoanService.cs",
+              "RelativeDocumentMoniker": "Services\\LoanService.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\UniversityLibraryMVC\\Services\\LoanService.cs",
+              "RelativeToolTip": "Services\\LoanService.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwAAAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-15T19:45:56.845Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "IXnService.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\UniversityLibraryMVC\\Services\\IXnService.cs",
+              "RelativeDocumentMoniker": "Services\\IXnService.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\UniversityLibraryMVC\\Services\\IXnService.cs",
+              "RelativeToolTip": "Services\\IXnService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-15T19:40:38.029Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "IUniversityService.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\UniversityLibraryMVC\\Services\\IUniversityService.cs",
+              "RelativeDocumentMoniker": "Services\\IUniversityService.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\UniversityLibraryMVC\\Services\\IUniversityService.cs",
+              "RelativeToolTip": "Services\\IUniversityService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-15T22:29:50.073Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "IMemberService.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\UniversityLibraryMVC\\Services\\IMemberService.cs",
+              "RelativeDocumentMoniker": "Services\\IMemberService.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\UniversityLibraryMVC\\Services\\IMemberService.cs",
+              "RelativeToolTip": "Services\\IMemberService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-15T19:45:29.959Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "ILoanService.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\UniversityLibraryMVC\\Services\\ILoanService.cs",
+              "RelativeDocumentMoniker": "Services\\ILoanService.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\UniversityLibraryMVC\\Services\\ILoanService.cs",
+              "RelativeToolTip": "Services\\ILoanService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-15T19:46:18.958Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\UniversityLibraryMVC\\Models\\User.cs",
+              "RelativeDocumentMoniker": "Models\\User.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\UniversityLibraryMVC\\Models\\User.cs",
+              "RelativeToolTip": "Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-15T17:33:49.949Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "University.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\UniversityLibraryMVC\\Models\\University.cs",
+              "RelativeDocumentMoniker": "Models\\University.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\UniversityLibraryMVC\\Models\\University.cs",
+              "RelativeToolTip": "Models\\University.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-15T18:50:13.568Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Member.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\UniversityLibraryMVC\\Models\\Member.cs",
+              "RelativeDocumentMoniker": "Models\\Member.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\UniversityLibraryMVC\\Models\\Member.cs",
+              "RelativeToolTip": "Models\\Member.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-15T18:46:22.424Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "LoanViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\UniversityLibraryMVC\\Models\\LoanViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\LoanViewModel.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\UniversityLibraryMVC\\Models\\LoanViewModel.cs",
+              "RelativeToolTip": "Models\\LoanViewModel.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAYwBsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-15T20:55:50.98Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Loan.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\UniversityLibraryMVC\\Models\\Loan.cs",
+              "RelativeDocumentMoniker": "Models\\Loan.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\UniversityLibraryMVC\\Models\\Loan.cs",
+              "RelativeToolTip": "Models\\Loan.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAYwBcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-15T18:50:04.285Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\UniversityLibraryMVC\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\ErrorViewModel.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\UniversityLibraryMVC\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "Models\\ErrorViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-15T18:49:56.442Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "HomeViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\UniversityLibraryMVC\\Models\\HomeViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\HomeViewModel.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\UniversityLibraryMVC\\Models\\HomeViewModel.cs",
+              "RelativeToolTip": "Models\\HomeViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAiwA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-15T18:46:18.343Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "Book.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\UniversityLibraryMVC\\Models\\Book.cs",
+              "RelativeDocumentMoniker": "Models\\Book.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\UniversityLibraryMVC\\Models\\Book.cs",
+              "RelativeToolTip": "Models\\Book.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAA1wCkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-15T18:30:35.691Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "ApplicationUser.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\UniversityLibraryMVC\\Models\\ApplicationUser.cs",
+              "RelativeDocumentMoniker": "Models\\ApplicationUser.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\UniversityLibraryMVC\\Models\\ApplicationUser.cs",
+              "RelativeToolTip": "Models\\ApplicationUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-15T18:07:21.474Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "LibraryDbContextModelSnapshot.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\UniversityLibraryMVC\\Migrations\\LibraryDbContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "Migrations\\LibraryDbContextModelSnapshot.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\UniversityLibraryMVC\\Migrations\\LibraryDbContextModelSnapshot.cs",
+              "RelativeToolTip": "Migrations\\LibraryDbContextModelSnapshot.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-15T17:41:09.801Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "20260114165724_AddIdentity.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\UniversityLibraryMVC\\Migrations\\20260114165724_AddIdentity.cs",
+              "RelativeDocumentMoniker": "Migrations\\20260114165724_AddIdentity.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\UniversityLibraryMVC\\Migrations\\20260114165724_AddIdentity.cs",
+              "RelativeToolTip": "Migrations\\20260114165724_AddIdentity.cs",
+              "ViewState": "AgIAAOkAAAAAAAAAAAAAAAQBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-15T17:41:08.461Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "20260114160703_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\UniversityLibraryMVC\\Migrations\\20260114160703_InitialCreate.cs",
+              "RelativeDocumentMoniker": "Migrations\\20260114160703_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\UniversityLibraryMVC\\Migrations\\20260114160703_InitialCreate.cs",
+              "RelativeToolTip": "Migrations\\20260114160703_InitialCreate.cs",
+              "ViewState": "AgIAAKAAAAAAAAAAAAAQwKAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-15T17:41:06.094Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "XmlController.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\UniversityLibraryMVC\\Controllers\\XmlController.cs",
+              "RelativeDocumentMoniker": "Controllers\\XmlController.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\UniversityLibraryMVC\\Controllers\\XmlController.cs",
+              "RelativeToolTip": "Controllers\\XmlController.cs",
+              "ViewState": "AgIAAEgAAAAAAAAAAAAYwFEAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-15T18:49:34.69Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "UniversityController.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\UniversityLibraryMVC\\Controllers\\UniversityController.cs",
+              "RelativeDocumentMoniker": "Controllers\\UniversityController.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\UniversityLibraryMVC\\Controllers\\UniversityController.cs",
+              "RelativeToolTip": "Controllers\\UniversityController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-15T18:28:15.413Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "TestController.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\UniversityLibraryMVC\\Controllers\\TestController.cs",
+              "RelativeDocumentMoniker": "Controllers\\TestController.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\UniversityLibraryMVC\\Controllers\\TestController.cs",
+              "RelativeToolTip": "Controllers\\TestController.cs",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAQwDQAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-15T19:14:04.15Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "MembersController.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\UniversityLibraryMVC\\Controllers\\MembersController.cs",
+              "RelativeDocumentMoniker": "Controllers\\MembersController.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\UniversityLibraryMVC\\Controllers\\MembersController.cs",
+              "RelativeToolTip": "Controllers\\MembersController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAH4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-15T17:21:56.877Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "LoansController.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\UniversityLibraryMVC\\Controllers\\LoansController.cs",
+              "RelativeDocumentMoniker": "Controllers\\LoansController.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\UniversityLibraryMVC\\Controllers\\LoansController.cs",
+              "RelativeToolTip": "Controllers\\LoansController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAMUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-15T18:49:05.355Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\UniversityLibraryMVC\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\UniversityLibraryMVC\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-15T18:09:09.091Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\UniversityLibraryMVC\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\UniversityLibraryMVC\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-01-15T23:52:14.932Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\UniversityLibraryMVC\\Views\\Universities\\Details.cshtml",
+              "RelativeDocumentMoniker": "Views\\Universities\\Details.cshtml",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\UniversityLibraryMVC\\Views\\Universities\\Details.cshtml",
+              "RelativeToolTip": "Views\\Universities\\Details.cshtml",
+              "ViewState": "AgIAACAAAAAAAAAAAAAYwDAAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-15T23:23:03.382Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\UniversityLibraryMVC\\Views\\Universities\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\Universities\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\UniversityLibraryMVC\\Views\\Universities\\Edit.cshtml",
+              "RelativeToolTip": "Views\\Universities\\Edit.cshtml",
+              "ViewState": "AgIAADYAAAAAAAAAAAAYwEYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-15T23:23:13.716Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "Export.cshtml",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\UniversityLibraryMVC\\Views\\Xml\\Export.cshtml",
+              "RelativeDocumentMoniker": "Views\\Xml\\Export.cshtml",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\UniversityLibraryMVC\\Views\\Xml\\Export.cshtml",
+              "RelativeToolTip": "Views\\Xml\\Export.cshtml",
+              "ViewState": "AgIAABMAAAAAAAAAAAAYwCMAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-15T23:23:32.969Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "Import.cshtml",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\UniversityLibraryMVC\\Views\\Xml\\Import.cshtml",
+              "RelativeDocumentMoniker": "Views\\Xml\\Import.cshtml",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\UniversityLibraryMVC\\Views\\Xml\\Import.cshtml",
+              "RelativeToolTip": "Views\\Xml\\Import.cshtml",
+              "ViewState": "AgIAACcAAAAAAAAAAAAYwDcAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-15T23:23:42.075Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\UniversityLibraryMVC\\Views\\Universities\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Views\\Universities\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\UniversityLibraryMVC\\Views\\Universities\\Delete.cshtml",
+              "RelativeToolTip": "Views\\Universities\\Delete.cshtml",
+              "ViewState": "AgIAACIAAAAAAAAAAAAYwDIAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-15T23:22:54.307Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\UniversityLibraryMVC\\Views\\Members\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\Members\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\UniversityLibraryMVC\\Views\\Members\\Edit.cshtml",
+              "RelativeToolTip": "Views\\Members\\Edit.cshtml",
+              "ViewState": "AgIAAFUAAAAAAAAAAAAYwGUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-15T23:22:15.701Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\UniversityLibraryMVC\\Views\\Members\\Details.cshtml",
+              "RelativeDocumentMoniker": "Views\\Members\\Details.cshtml",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\UniversityLibraryMVC\\Views\\Members\\Details.cshtml",
+              "RelativeToolTip": "Views\\Members\\Details.cshtml",
+              "ViewState": "AgIAADsAAAAAAAAAAAAYwEsAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-15T23:22:04.866Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\UniversityLibraryMVC\\Views\\Universities\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Universities\\Index.cshtml",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\UniversityLibraryMVC\\Views\\Universities\\Index.cshtml",
+              "RelativeToolTip": "Views\\Universities\\Index.cshtml",
+              "ViewState": "AgIAACYAAAAAAAAAAAAYwDYAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-15T22:27:10.453Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\UniversityLibraryMVC\\Views\\Members\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Views\\Members\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\UniversityLibraryMVC\\Views\\Members\\Delete.cshtml",
+              "RelativeToolTip": "Views\\Members\\Delete.cshtml",
+              "ViewState": "AgIAACsAAAAAAAAAAAAYwDsAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-15T23:21:51.443Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "Return.cshtml",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\UniversityLibraryMVC\\Views\\Loans\\Return.cshtml",
+              "RelativeDocumentMoniker": "Views\\Loans\\Return.cshtml",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\UniversityLibraryMVC\\Views\\Loans\\Return.cshtml",
+              "RelativeToolTip": "Views\\Loans\\Return.cshtml",
+              "ViewState": "AgIAACUAAAAAAAAAAAAYwDUAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-15T23:21:16.397Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\UniversityLibraryMVC\\Views\\Members\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Members\\Index.cshtml",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\UniversityLibraryMVC\\Views\\Members\\Index.cshtml",
+              "RelativeToolTip": "Views\\Members\\Index.cshtml",
+              "ViewState": "AgIAADgAAAAAAAAAAAAYwEYAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-15T22:02:58.188Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\UniversityLibraryMVC\\Views\\Universities\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Universities\\Create.cshtml",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\UniversityLibraryMVC\\Views\\Universities\\Create.cshtml",
+              "RelativeToolTip": "Views\\Universities\\Create.cshtml",
+              "ViewState": "AgIAADAAAAAAAAAAAAAYwEAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-15T22:27:19.187Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\UniversityLibraryMVC\\Views\\Loans\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\Loans\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\UniversityLibraryMVC\\Views\\Loans\\Edit.cshtml",
+              "RelativeToolTip": "Views\\Loans\\Edit.cshtml",
+              "ViewState": "AgIAAEsAAAAAAAAAAAAYwFsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-15T23:20:50.614Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\UniversityLibraryMVC\\Views\\Loans\\Details.cshtml",
+              "RelativeDocumentMoniker": "Views\\Loans\\Details.cshtml",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\UniversityLibraryMVC\\Views\\Loans\\Details.cshtml",
+              "RelativeToolTip": "Views\\Loans\\Details.cshtml",
+              "ViewState": "AgIAACwAAAAAAAAAAAAYwDwAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-15T23:20:39.721Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\UniversityLibraryMVC\\Views\\Loans\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Loans\\Index.cshtml",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\UniversityLibraryMVC\\Views\\Loans\\Index.cshtml",
+              "RelativeToolTip": "Views\\Loans\\Index.cshtml",
+              "ViewState": "AgIAADkAAAAAAAAAAAAYwEkAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-15T22:03:29.298Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\UniversityLibraryMVC\\Views\\Members\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Members\\Create.cshtml",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\UniversityLibraryMVC\\Views\\Members\\Create.cshtml",
+              "RelativeToolTip": "Views\\Members\\Create.cshtml",
+              "ViewState": "AgIAAE8AAAAAAAAAAAAYwF8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-15T22:26:23.542Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 63,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\UniversityLibraryMVC\\Views\\Loans\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Views\\Loans\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\UniversityLibraryMVC\\Views\\Loans\\Delete.cshtml",
+              "RelativeToolTip": "Views\\Loans\\Delete.cshtml",
+              "ViewState": "AgIAACUAAAAAAAAAAAAYwDUAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-15T18:51:29.148Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 64,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\UniversityLibraryMVC\\Views\\Test\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Test\\Index.cshtml",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\UniversityLibraryMVC\\Views\\Test\\Index.cshtml",
+              "RelativeToolTip": "Views\\Test\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-15T19:14:29.854Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 65,
+              "Title": "SQLQuery1.sql",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\UniversityLibraryMVC\\SQLQuery1.sql",
+              "RelativeDocumentMoniker": "SQLQuery1.sql",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\UniversityLibraryMVC\\SQLQuery1.sql",
+              "RelativeToolTip": "SQLQuery1.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2026-01-15T17:31:47.179Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 66,
+              "Title": "SQLQuery4.sql",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\UniversityLibraryMVC\\SQLQuery4.sql",
+              "RelativeDocumentMoniker": "SQLQuery4.sql",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\UniversityLibraryMVC\\SQLQuery4.sql",
+              "RelativeToolTip": "SQLQuery4.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2026-01-15T17:24:17.976Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 67,
+              "Title": "UniversityLibraryMVC",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\UniversityLibraryMVC\\UniversityLibraryMVC.csproj",
+              "RelativeDocumentMoniker": "UniversityLibraryMVC.csproj",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\UniversityLibraryMVC\\UniversityLibraryMVC.csproj",
+              "RelativeToolTip": "UniversityLibraryMVC.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-01-15T17:20:01.963Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 28,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

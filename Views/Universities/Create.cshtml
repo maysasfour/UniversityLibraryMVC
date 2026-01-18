@@ -1,0 +1,65 @@
+﻿@model UniversityLibraryMVC.Models.University
+@{
+    ViewData["Title"] = "Add New University";
+    var university = ViewBag.University as UniversityLibraryMVC.Models.University;
+}
+
+<partial name="_UniversityBrandingPartial" model="university" />
+
+<div class="card">
+    <div class="card-header">
+        <h5 class="card-title mb-0">Add New University</h5>
+    </div>
+    <div class="card-body">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger mb-3"></div>
+
+            <div class="row mb-3">
+                <div class="col-md-6">
+                    <label asp-for="Name" class="form-label"></label>
+                    <input asp-for="Name" class="form-control" placeholder="Enter university name" />
+                    <span asp-validation-for="Name" class="text-danger"></span>
+                </div>
+                <div class="col-md-6">
+                    <label asp-for="PrimaryColor" class="form-label"></label>
+                    <input asp-for="PrimaryColor" class="form-control" placeholder="Enter primary color (e.g., #003366)" />
+                    <span asp-validation-for="PrimaryColor" class="text-danger"></span>
+                </div>
+            </div>
+
+            <div class="row mb-3">
+                <div class="col-md-6">
+                    <label asp-for="SecondaryColor" class="form-label"></label>
+                    <input asp-for="SecondaryColor" class="form-control" placeholder="Enter secondary color (e.g., #FFD700)" />
+                    <span asp-validation-for="SecondaryColor" class="text-danger"></span>
+                </div>
+                <div class="col-md-6">
+                    <label asp-for="LogoPath" class="form-label"></label>
+                    <input asp-for="LogoPath" class="form-control" placeholder="Enter logo path (e.g., /images/logo.png)" />
+                    <span asp-validation-for="LogoPath" class="text-danger"></span>
+                </div>
+            </div>
+
+            <div class="row mb-3">
+                <div class="col-md-6">
+                    <label asp-for="MenuPosition" class="form-label"></label>
+                    <input asp-for="MenuPosition" type="number" class="form-control" min="1" max="10" value="1" />
+                    <span asp-validation-for="MenuPosition" class="text-danger"></span>
+                </div>
+            </div>
+
+            <div class="d-flex justify-content-between mt-4">
+                <a asp-action="Index" class="btn btn-secondary">
+                    <i class="bi bi-arrow-left me-1"></i> Back to List
+                </a>
+                <button type="submit" class="btn btn-primary">
+                    <i class="bi bi-plus-circle me-1"></i> Add University
+                </button>
+            </div>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

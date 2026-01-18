@@ -1,0 +1,56 @@
+﻿@{
+    ViewData["Title"] = "XML Import";
+    var university = ViewBag.University as UniversityLibraryMVC.Models.University;
+}
+
+<partial name="_UniversityBrandingPartial" model="university" />
+
+<div class="card">
+    <div class="card-header">
+        <h5 class="card-title mb-0">XML Import</h5>
+    </div>
+    <div class="card-body">
+        @if (TempData["Message"] != null)
+        {
+            <div class="alert alert-success">@TempData["Message"]</div>
+        }
+
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-header bg-warning text-dark">
+                        <h6 class="mb-0">Import Data</h6>
+                    </div>
+                    <div class="card-body">
+                        <form asp-action="ImportBooks" method="post" enctype="multipart/form-data" class="mb-3">
+                            <div class="input-group">
+                                <input type="file" name="xmlFile" class="form-control" accept=".xml" required />
+                                <button type="submit" class="btn btn-primary">Import Books</button>
+                            </div>
+                        </form>
+
+                        <form asp-action="ImportMembers" method="post" enctype="multipart/form-data" class="mb-3">
+                            <div class="input-group">
+                                <input type="file" name="xmlFile" class="form-control" accept=".xml" required />
+                                <button type="submit" class="btn btn-success">Import Members</button>
+                            </div>
+                        </form>
+
+                        <form asp-action="ImportLoans" method="post" enctype="multipart/form-data">
+                            <div class="input-group">
+                                <input type="file" name="xmlFile" class="form-control" accept=".xml" required />
+                                <button type="submit" class="btn btn-info text-white">Import Loans</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="alert alert-info">
+            <h6><i class="bi bi-info-circle me-2"></i>XML Format Examples:</h6>
+            <p><strong>Books XML:</strong> Contains ISBN, Title, Author, Publisher, PublicationYear, Category, TotalCopies, AvailableCopies</p>
+            <p><strong>Members XML:</strong> Contains StudentID, FirstName, LastName, Email, Phone, Address, Age, MembershipType, RegistrationDate, IsActive</p>
+        </div>
+    </div>
+</div>

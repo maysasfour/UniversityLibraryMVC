@@ -1,0 +1,36 @@
+﻿@{
+    ViewData["Title"] = "XML Export";
+    var university = ViewBag.University as UniversityLibraryMVC.Models.University;
+}
+
+<partial name="_UniversityBrandingPartial" model="university" />
+
+<div class="card">
+    <div class="card-header">
+        <h5 class="card-title mb-0">XML Export</h5>
+    </div>
+    <div class="card-body">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-header bg-primary text-white">
+                        <h6 class="mb-0">Export Data</h6>
+                    </div>
+                    <div class="card-body">
+                        <div class="d-grid gap-2">
+                            <a asp-action="ExportBooks" class="btn btn-primary">
+                                <i class="bi bi-file-earmark-arrow-down me-2"></i>Export Books to XML
+                            </a>
+                            <a asp-action="ExportMembers" class="btn btn-success">
+                                <i class="bi bi-file-earmark-arrow-down me-2"></i>Export Members to XML
+                            </a>
+                            <a asp-action="ExportLoans" class="btn btn-info text-white">
+                                <i class="bi bi-file-earmark-arrow-down me-2"></i>Export Loans to XML
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
