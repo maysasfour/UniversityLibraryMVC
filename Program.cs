@@ -145,8 +145,8 @@ async Task SeedUniversityBranding(LibraryDbContext context)
         context.Universities.Add(new University
         {
             Name = "Middle East University",
-            PrimaryColor = "#1F5F5B",
-            SecondaryColor = "#D6A756",
+            PrimaryColor = "#4A2433",
+            SecondaryColor = "#B8955A",
             LogoPath = "/Images/meu-university-logo.png",
             MenuPosition = 1
         });
@@ -161,15 +161,15 @@ async Task SeedUniversityBranding(LibraryDbContext context)
     {
         var changed = false;
 
-        if (menuUniversity.PrimaryColor == "#003366")
+        if (menuUniversity.PrimaryColor == "#003366" || menuUniversity.PrimaryColor == "#1F5F5B")
         {
-            menuUniversity.PrimaryColor = "#1F5F5B";
+            menuUniversity.PrimaryColor = "#4A2433";
             changed = true;
         }
 
-        if (menuUniversity.SecondaryColor == "#FFD700")
+        if (menuUniversity.SecondaryColor == "#FFD700" || menuUniversity.SecondaryColor == "#D6A756")
         {
-            menuUniversity.SecondaryColor = "#D6A756";
+            menuUniversity.SecondaryColor = "#B8955A";
             changed = true;
         }
 

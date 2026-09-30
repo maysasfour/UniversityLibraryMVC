@@ -1,4 +1,34 @@
-﻿document.addEventListener('DOMContentLoaded', function () {
+document.addEventListener('DOMContentLoaded', function () {
+    const storedTheme = localStorage.getItem('library-theme');
+    const prefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+    const theme = storedTheme || (prefersDark ? 'dark' : 'light');
+    document.documentElement.setAttribute('data-theme', theme);
+
+    const themeToggle = document.getElementById('themeToggle');
+    const updateThemeToggle = () => {
+        if (!themeToggle) return;
+        const isDark = document.documentElement.getAttribute('data-theme') === 'dark';
+        themeToggle.innerHTML = isDark
+            ? '<i class="bi bi-sun"></i><span>Light</span>'
+            : '<i class="bi bi-moon-stars"></i><span>Dark</span>';
+    };
+
+    updateThemeToggle();
+
+    themeToggle?.addEventListener('click', () => {
+        const nextTheme = document.documentElement.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
+        document.documentElement.setAttribute('data-theme', nextTheme);
+        localStorage.setItem('library-theme', nextTheme);
+        updateThemeToggle();
+    });
+
+    const cursorDot = document.createElement('span');
+    cursorDot.className = 'cursor-dot';
+    document.body.appendChild(cursorDot);
+
+    document.addEventListener('pointermove', event => {
+        cursorDot.style.transform = `translate(${event.clientX}px, ${event.clientY}px)`;
+    });
 
     const forms = document.querySelectorAll('form');
     forms.forEach(form => {

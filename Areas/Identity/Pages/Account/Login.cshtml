@@ -5,24 +5,12 @@
     ViewData["HidePageHeader"] = true;
 }
 
-<section class="auth-stage">
-    <div class="auth-story">
-        <div class="hero-brand">
-            <img src="~/Images/meu-university-logo.png" class="hero-logo" alt="Middle East University Logo" />
-            <span>MEU Library</span>
-        </div>
-        <h1>Welcome back to the library workspace.</h1>
-        <p>
-            Sign in to manage catalog records, loans, members, and library activity from one focused dashboard.
-        </p>
-        <div class="auth-proof-grid">
-            <div><strong>Catalog</strong><span>organized records</span></div>
-            <div><strong>Loans</strong><span>clear tracking</span></div>
-            <div><strong>Members</strong><span>simple access</span></div>
-        </div>
-    </div>
-
+<section class="auth-stage auth-login-stage">
     <div class="auth-card">
+        <div class="auth-mark">
+            <img src="~/Images/meu-university-logo.png" alt="Middle East University Logo" />
+            <span>Library Portal</span>
+        </div>
         <div class="auth-card-header">
             <p class="eyebrow">Secure Access</p>
             <h2>Sign in</h2>
@@ -54,6 +42,17 @@
             </div>
         </form>
     </div>
+
+    <aside class="auth-note-panel">
+        <p class="script-label">Welcome back</p>
+        <h1>Return to your quiet library workspace.</h1>
+        <p>Manage books, members, and loans through a classical interface built for calm daily work.</p>
+        <div class="auth-proof-grid">
+            <div><strong>Catalog</strong><span>Organized records</span></div>
+            <div><strong>Loans</strong><span>Clear tracking</span></div>
+            <div><strong>Members</strong><span>Simple access</span></div>
+        </div>
+    </aside>
 </section>
 
 @section Scripts {
