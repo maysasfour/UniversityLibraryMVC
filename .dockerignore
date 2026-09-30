@@ -1,0 +1,7 @@
+.git
+.gitignore
+.vs
+.aspnet
+bin
+obj
+wwwroot/xml/exports

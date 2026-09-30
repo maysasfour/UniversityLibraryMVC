@@ -1,0 +1,17 @@
+services:
+  - type: web
+    name: university-library-mvc
+    runtime: docker
+    plan: free
+    healthCheckPath: /
+    envVars:
+      - key: ASPNETCORE_ENVIRONMENT
+        value: Production
+      - key: ASPNETCORE_FORWARDEDHEADERS_ENABLED
+        value: "true"
+      - key: DATABASE_PROVIDER
+        value: Sqlite
+      - key: DATA_DIRECTORY
+        value: /app/data
+      - key: ConnectionStrings__DefaultConnection
+        value: Data Source=/app/data/library.db

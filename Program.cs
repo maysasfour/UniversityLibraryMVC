@@ -12,12 +12,27 @@ builder.Logging.AddDebug();
 
 builder.Services.AddControllersWithViews();
 
+var dataDirectory = Environment.GetEnvironmentVariable("DATA_DIRECTORY")
+    ?? Path.Combine(builder.Environment.ContentRootPath, ".aspnet");
+Directory.CreateDirectory(dataDirectory);
+
 builder.Services.AddDataProtection()
-    .PersistKeysToFileSystem(new DirectoryInfo(Path.Combine(builder.Environment.ContentRootPath, ".aspnet", "DataProtection-Keys")));
+    .PersistKeysToFileSystem(new DirectoryInfo(Path.Combine(dataDirectory, "DataProtection-Keys")));
+
+var connectionString = builder.Configuration.GetConnectionString("DefaultConnection")
+    ?? throw new InvalidOperationException("DefaultConnection is not configured.");
+var useSqlite = string.Equals(
+    Environment.GetEnvironmentVariable("DATABASE_PROVIDER"),
+    "Sqlite",
+    StringComparison.OrdinalIgnoreCase);
 
 builder.Services.AddDbContext<LibraryDbContext>(options =>
-    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"),
-        sqlServerOptions => sqlServerOptions.EnableRetryOnFailure()));
+{
+    if (useSqlite)
+        options.UseSqlite(connectionString);
+    else
+        options.UseSqlServer(connectionString, sqlServerOptions => sqlServerOptions.EnableRetryOnFailure());
+});
 
 builder.Services.AddDefaultIdentity<ApplicationUser>(options =>
 {
@@ -65,7 +80,10 @@ using (var scope = app.Services.CreateScope())
         var context = services.GetRequiredService<LibraryDbContext>();
 
    
-        context.Database.Migrate();
+        if (useSqlite)
+            context.Database.EnsureCreated();
+        else
+            context.Database.Migrate();
 
         var userManager = services.GetRequiredService<UserManager<ApplicationUser>>();
         var roleManager = services.GetRequiredService<RoleManager<IdentityRole>>();
