@@ -54,7 +54,7 @@ namespace UniversityLibraryMVC.Migrations
                         column: x => x.UniversityID,
                         principalTable: "Universities",
                         principalColumn: "UniversityID",
-                        onDelete: ReferentialAction.Cascade);
+                        onDelete: ReferentialAction.Restrict);
                 });
 
             migrationBuilder.CreateTable(
@@ -79,7 +79,7 @@ namespace UniversityLibraryMVC.Migrations
                         column: x => x.UniversityID,
                         principalTable: "Universities",
                         principalColumn: "UniversityID",
-                        onDelete: ReferentialAction.Cascade);
+                        onDelete: ReferentialAction.Restrict);
                 });
 
             migrationBuilder.CreateTable(
@@ -104,13 +104,13 @@ namespace UniversityLibraryMVC.Migrations
                         column: x => x.BookID,
                         principalTable: "Books",
                         principalColumn: "BookID",
-                        onDelete: ReferentialAction.Cascade);
+                        onDelete: ReferentialAction.Restrict);
                     table.ForeignKey(
                         name: "FK_Loans_Members_MemberID",
                         column: x => x.MemberID,
                         principalTable: "Members",
                         principalColumn: "MemberID",
-                        onDelete: ReferentialAction.Cascade);
+                        onDelete: ReferentialAction.Restrict);
                 });
 
             migrationBuilder.InsertData(

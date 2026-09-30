@@ -1,11 +1,19 @@
 ﻿using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.DataProtection;
 using Microsoft.EntityFrameworkCore;
 using UniversityLibraryMVC.Models;
 using UniversityLibraryMVC.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
+builder.Logging.ClearProviders();
+builder.Logging.AddConsole();
+builder.Logging.AddDebug();
+
 builder.Services.AddControllersWithViews();
+
+builder.Services.AddDataProtection()
+    .PersistKeysToFileSystem(new DirectoryInfo(Path.Combine(builder.Environment.ContentRootPath, ".aspnet", "DataProtection-Keys")));
 
 builder.Services.AddDbContext<LibraryDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"),
@@ -57,8 +65,7 @@ using (var scope = app.Services.CreateScope())
         var context = services.GetRequiredService<LibraryDbContext>();
 
    
-        context.Database.EnsureDeleted(); 
-        context.Database.EnsureCreated();
+        context.Database.Migrate();
 
         var userManager = services.GetRequiredService<UserManager<ApplicationUser>>();
         var roleManager = services.GetRequiredService<RoleManager<IdentityRole>>();
@@ -71,38 +78,28 @@ using (var scope = app.Services.CreateScope())
             await roleManager.CreateAsync(new IdentityRole("Member"));
 
        
-        var adminEmail = "admin@meu.edu";
-        var adminPassword = "Admin123!";
+        var adminEmail = Environment.GetEnvironmentVariable("ADMIN_EMAIL");
+        var adminPassword = Environment.GetEnvironmentVariable("ADMIN_PASSWORD");
 
-        var adminUser = await userManager.FindByEmailAsync(adminEmail);
-
-        if (adminUser == null)
+        if (!string.IsNullOrWhiteSpace(adminEmail) && !string.IsNullOrWhiteSpace(adminPassword))
         {
-            adminUser = new ApplicationUser
+            var adminUser = await userManager.FindByEmailAsync(adminEmail);
+            if (adminUser == null)
             {
-                UserName = adminEmail,
-                Email = adminEmail,
-                EmailConfirmed = true,
-                FirstName = "Admin",
-                LastName = "User"
-            };
+                adminUser = new ApplicationUser
+                {
+                    UserName = adminEmail,
+                    Email = adminEmail,
+                    EmailConfirmed = true,
+                    FirstName = "Admin",
+                    LastName = "User"
+                };
 
-            var result = await userManager.CreateAsync(adminUser, adminPassword);
-            if (result.Succeeded)
-            {
-                await userManager.AddToRoleAsync(adminUser, "Admin");
-                Console.WriteLine("✅ Admin user created successfully");
-            }
-        }
-        else
-        {
-            var result = await userManager.RemovePasswordAsync(adminUser);
-            if (result.Succeeded)
-            {
-                result = await userManager.AddPasswordAsync(adminUser, adminPassword);
+                var result = await userManager.CreateAsync(adminUser, adminPassword);
                 if (result.Succeeded)
                 {
-                    Console.WriteLine("✅ Password reset successfully");
+                    await userManager.AddToRoleAsync(adminUser, "Admin");
+                    Console.WriteLine("Admin user created successfully");
                 }
             }
         }
@@ -135,12 +132,17 @@ async Task SeedSampleData(LibraryDbContext context)
         await context.SaveChangesAsync();
     }
 
+    var universityId = context.Universities
+        .OrderBy(u => u.UniversityID)
+        .Select(u => u.UniversityID)
+        .First();
+
     if (!context.Books.Any())
     {
         context.Books.AddRange(
-            new Book { Title = "Introduction to Algorithms", Author = "Cormen", ISBN = "978-0262033848", Category = "Computer Science", Publisher = "MIT Press", PublicationYear = 2009, TotalCopies = 5, AvailableCopies = 5, UniversityID = 1 },
-            new Book { Title = "Clean Code", Author = "Robert Martin", ISBN = "978-0132350884", Category = "Programming", Publisher = "Prentice Hall", PublicationYear = 2008, TotalCopies = 3, AvailableCopies = 3, UniversityID = 1 },
-            new Book { Title = "The Pragmatic Programmer", Author = "Andrew Hunt", ISBN = "978-0135957059", Category = "Programming", Publisher = "Addison-Wesley", PublicationYear = 2019, TotalCopies = 2, AvailableCopies = 2, UniversityID = 1 }
+            new Book { Title = "Introduction to Algorithms", Author = "Cormen", ISBN = "978-0262033848", Category = "Computer Science", Publisher = "MIT Press", PublicationYear = 2009, TotalCopies = 5, AvailableCopies = 5, UniversityID = universityId },
+            new Book { Title = "Clean Code", Author = "Robert Martin", ISBN = "978-0132350884", Category = "Programming", Publisher = "Prentice Hall", PublicationYear = 2008, TotalCopies = 3, AvailableCopies = 3, UniversityID = universityId },
+            new Book { Title = "The Pragmatic Programmer", Author = "Andrew Hunt", ISBN = "978-0135957059", Category = "Programming", Publisher = "Addison-Wesley", PublicationYear = 2019, TotalCopies = 2, AvailableCopies = 2, UniversityID = universityId }
         );
         await context.SaveChangesAsync();
     }
@@ -148,8 +150,8 @@ async Task SeedSampleData(LibraryDbContext context)
     if (!context.Members.Any())
     {
         context.Members.AddRange(
-            new Member { FirstName = "mohammed", LastName = "ahmed", Email = "moh@yahoo.com", Phone = "123-456-7890", Address = "123 Main St", Age = 25, MembershipType = "Student", RegistrationDate = DateTime.Now, MembershipDate = DateTime.Now, StudentID = "STU001", IsActive = true, UniversityID = 1 },
-            new Member { FirstName = "lilly", LastName = "hailey", Email = "lilly@gmail.com", Phone = "098-765-4321", Address = "456 Oak Ave", Age = 22, MembershipType = "Student", RegistrationDate = DateTime.Now, MembershipDate = DateTime.Now, StudentID = "STU002", IsActive = true, UniversityID = 1 }
+            new Member { FirstName = "mohammed", LastName = "ahmed", Email = "moh@yahoo.com", Phone = "123-456-7890", Address = "123 Main St", Age = 25, MembershipType = "Student", RegistrationDate = DateTime.Now, MembershipDate = DateTime.Now, StudentID = "STU001", IsActive = true, UniversityID = universityId },
+            new Member { FirstName = "lilly", LastName = "hailey", Email = "lilly@gmail.com", Phone = "098-765-4321", Address = "456 Oak Ave", Age = 22, MembershipType = "Student", RegistrationDate = DateTime.Now, MembershipDate = DateTime.Now, StudentID = "STU002", IsActive = true, UniversityID = universityId }
         );
         await context.SaveChangesAsync();
     }

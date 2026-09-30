@@ -41,6 +41,7 @@ namespace UniversityLibraryMVC.Controllers
 
         public IActionResult Privacy()
         {
+            ViewBag.University = _universityService.GetMenuUniversity();
             return View();
         }
     }

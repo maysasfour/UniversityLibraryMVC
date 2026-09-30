@@ -27,6 +27,15 @@ namespace UniversityLibraryMVC.Controllers
             return View();
         }
 
+        public async Task<IActionResult> Details(int id)
+        {
+            var university = await _universityService.GetUniversityByIdAsync(id);
+            if (university == null) return NotFound();
+
+            ViewBag.University = university;
+            return View(university);
+        }
+
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create(University university)

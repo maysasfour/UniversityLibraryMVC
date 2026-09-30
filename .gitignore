@@ -1,0 +1,6 @@
+.aspnet/
+bin/
+obj/
+.vs/
+*.user
+wwwroot/xml/exports/

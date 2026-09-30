@@ -21,6 +21,10 @@ namespace UniversityLibraryMVC.Models
             base.OnModelCreating(modelBuilder);
 
             modelBuilder.Entity<Loan>()
+                .Property(l => l.FineAmount)
+                .HasPrecision(18, 2);
+
+            modelBuilder.Entity<Loan>()
                 .HasOne(l => l.Book)
                 .WithMany(b => b.Loans)
                 .HasForeignKey(l => l.BookID)
