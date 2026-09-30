@@ -1,18 +1,41 @@
 ﻿@model UniversityLibraryMVC.Models.University
 
-<div class="university-branding mb-4">
-    <div class="card border-0 shadow-sm">
-        <div class="card-body p-4">
-            <div class="d-flex align-items-center">
-                @if (Model != null && !string.IsNullOrEmpty(Model.LogoPath))
-                {
-                    <img src="@Model.LogoPath" class="university-logo me-3" alt="@(Model.Name ?? "University") Logo" style="max-height: 60px;" />
-                }
-                <div>
-                    <h1 class="mb-0">@(Model?.Name ?? "University Library")</h1>
-                    <p class="mb-0 text-muted">Library Management System</p>
-                </div>
-            </div>
+@{
+    var logoPath = !string.IsNullOrWhiteSpace(Model?.LogoPath) ? Model.LogoPath : "/Images/meu-university-logo.png";
+}
+
+<div class="home-hero reveal-on-load">
+    <div class="home-hero-content">
+        <div class="hero-brand">
+            <img src="@logoPath" class="hero-logo" alt="@(Model?.Name ?? "Middle East University") Logo" />
+            <span>Middle East University Library</span>
+        </div>
+        <h1>Manage books, members, and borrowing in one clean library workspace.</h1>
+        <p>
+            A focused system for cataloging university books, tracking active loans, monitoring overdue items,
+            and keeping member records organized.
+        </p>
+        <div class="hero-actions">
+            <a asp-controller="Books" asp-action="Index" class="btn btn-light btn-lg">
+                <i class="bi bi-book me-2"></i>Browse Catalog
+            </a>
+            <a asp-controller="Books" asp-action="Create" class="btn btn-secondary btn-lg">
+                <i class="bi bi-plus-circle me-2"></i>Add Book
+            </a>
+        </div>
+    </div>
+    <div class="home-hero-panel">
+        <div class="orbit-card orbit-card-one">
+            <i class="bi bi-journal-bookmark"></i>
+            <span>Catalog</span>
+        </div>
+        <div class="orbit-card orbit-card-two">
+            <i class="bi bi-people"></i>
+            <span>Members</span>
+        </div>
+        <div class="orbit-card orbit-card-three">
+            <i class="bi bi-arrow-left-right"></i>
+            <span>Loans</span>
         </div>
     </div>
 </div>

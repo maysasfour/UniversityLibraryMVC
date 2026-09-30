@@ -122,7 +122,8 @@ using (var scope = app.Services.CreateScope())
             }
         }
 
-        await SeedSampleData(context);
+        await SeedUniversityBranding(context);
+        await RemoveLegacyDemoData(context);
     }
     catch (Exception ex)
     {
@@ -134,63 +135,60 @@ using (var scope = app.Services.CreateScope())
 app.Run();
 
 
-async Task SeedSampleData(LibraryDbContext context)
+async Task SeedUniversityBranding(LibraryDbContext context)
 {
-    
     if (!context.Universities.Any())
     {
         context.Universities.Add(new University
         {
-            Name = "Meu University",
+            Name = "Middle East University",
             PrimaryColor = "#003366",
             SecondaryColor = "#FFD700",
-            LogoPath = "/images/meu-university-logo.png",
+            LogoPath = "/Images/meu-university-logo.png",
             MenuPosition = 1
         });
         await context.SaveChangesAsync();
     }
+}
 
-    var universityId = context.Universities
-        .OrderBy(u => u.UniversityID)
-        .Select(u => u.UniversityID)
-        .First();
-
-    if (!context.Books.Any())
+async Task RemoveLegacyDemoData(LibraryDbContext context)
+{
+    var demoIsbns = new[]
     {
-        context.Books.AddRange(
-            new Book { Title = "Introduction to Algorithms", Author = "Cormen", ISBN = "978-0262033848", Category = "Computer Science", Publisher = "MIT Press", PublicationYear = 2009, TotalCopies = 5, AvailableCopies = 5, UniversityID = universityId },
-            new Book { Title = "Clean Code", Author = "Robert Martin", ISBN = "978-0132350884", Category = "Programming", Publisher = "Prentice Hall", PublicationYear = 2008, TotalCopies = 3, AvailableCopies = 3, UniversityID = universityId },
-            new Book { Title = "The Pragmatic Programmer", Author = "Andrew Hunt", ISBN = "978-0135957059", Category = "Programming", Publisher = "Addison-Wesley", PublicationYear = 2019, TotalCopies = 2, AvailableCopies = 2, UniversityID = universityId }
-        );
-        await context.SaveChangesAsync();
-    }
+        "978-0262033848",
+        "978-0132350884",
+        "978-0135957059",
+        "978-1-56-619909-4"
+    };
 
-    if (!context.Members.Any())
+    var demoEmails = new[]
     {
-        context.Members.AddRange(
-            new Member { FirstName = "mohammed", LastName = "ahmed", Email = "moh@yahoo.com", Phone = "123-456-7890", Address = "123 Main St", Age = 25, MembershipType = "Student", RegistrationDate = DateTime.Now, MembershipDate = DateTime.Now, StudentID = "STU001", IsActive = true, UniversityID = universityId },
-            new Member { FirstName = "lilly", LastName = "hailey", Email = "lilly@gmail.com", Phone = "098-765-4321", Address = "456 Oak Ave", Age = 22, MembershipType = "Student", RegistrationDate = DateTime.Now, MembershipDate = DateTime.Now, StudentID = "STU002", IsActive = true, UniversityID = universityId }
-        );
-        await context.SaveChangesAsync();
-    }
+        "moh@yahoo.com",
+        "lilly@gmail.com"
+    };
 
-  
-    if (!context.Loans.Any())
-    {
-        var book1 = context.Books.First();
-        var member1 = context.Members.First();
+    var demoBookIds = context.Books
+        .Where(book => demoIsbns.Contains(book.ISBN))
+        .Select(book => book.BookID)
+        .ToList();
 
-        context.Loans.Add(new Loan
-        {
-            BookID = book1.BookID,
-            MemberID = member1.MemberID,
-            LoanDate = DateTime.Now.AddDays(-7),
-            DueDate = DateTime.Now.AddDays(7),
-            ReturnDate = null,
-            Status = "Active",
-            FineAmount = 0.0m
-        });
+    var demoMemberIds = context.Members
+        .Where(member => demoEmails.Contains(member.Email))
+        .Select(member => member.MemberID)
+        .ToList();
 
-        await context.SaveChangesAsync();
-    }
+    if (demoBookIds.Count == 0 && demoMemberIds.Count == 0)
+        return;
+
+    var demoLoans = context.Loans
+        .Where(loan => demoBookIds.Contains(loan.BookID) || demoMemberIds.Contains(loan.MemberID));
+    context.Loans.RemoveRange(demoLoans);
+
+    var demoBooks = context.Books.Where(book => demoBookIds.Contains(book.BookID));
+    context.Books.RemoveRange(demoBooks);
+
+    var demoMembers = context.Members.Where(member => demoMemberIds.Contains(member.MemberID));
+    context.Members.RemoveRange(demoMembers);
+
+    await context.SaveChangesAsync();
 }
