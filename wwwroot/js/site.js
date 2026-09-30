@@ -22,14 +22,6 @@ document.addEventListener('DOMContentLoaded', function () {
         updateThemeToggle();
     });
 
-    const cursorDot = document.createElement('span');
-    cursorDot.className = 'cursor-dot';
-    document.body.appendChild(cursorDot);
-
-    document.addEventListener('pointermove', event => {
-        cursorDot.style.transform = `translate(${event.clientX}px, ${event.clientY}px)`;
-    });
-
     const forms = document.querySelectorAll('form');
     forms.forEach(form => {
         form.addEventListener('submit', function (e) {
