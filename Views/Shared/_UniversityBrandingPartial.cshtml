@@ -8,25 +8,25 @@
     <div class="home-hero-content">
         <div class="hero-brand">
             <img src="@logoPath" class="hero-logo" alt="@(Model?.Name ?? "Middle East University") Logo" />
-            <span>Middle East University Library</span>
+            <span>Middle East University</span>
         </div>
-        <h1>A smarter university library platform built for growth, insight, and trust.</h1>
+        <h1>A refined digital library system for modern campus operations.</h1>
         <p>
-            Middle East University Library brings cataloging, circulation, members, and operational reporting
-            into one polished digital experience ready for campus scale and stakeholder review.
+            Manage the catalog, members, and loans from a clean workspace designed for administrators,
+            students, and decision makers.
         </p>
         <div class="hero-actions">
-            <a asp-controller="Books" asp-action="Index" class="btn btn-light btn-lg">
+            <a asp-controller="Books" asp-action="Index" class="btn btn-primary btn-lg">
                 <i class="bi bi-book me-2"></i>Browse Catalog
             </a>
-            <a asp-controller="Books" asp-action="Create" class="btn btn-secondary btn-lg">
-                <i class="bi bi-plus-circle me-2"></i>Add Book
+            <a asp-area="Identity" asp-page="/Account/Login" class="btn btn-outline-primary btn-lg">
+                <i class="bi bi-box-arrow-in-right me-2"></i>Sign In
             </a>
         </div>
         <div class="investor-strip">
-            <span><strong>Operational clarity</strong> for library teams</span>
-            <span><strong>Digital access</strong> for students</span>
-            <span><strong>Cloud-ready</strong> deployment model</span>
+            <span><strong>Clear</strong> library operations</span>
+            <span><strong>Fast</strong> member onboarding</span>
+            <span><strong>Ready</strong> for cloud deployment</span>
         </div>
     </div>
     <div class="home-hero-panel">
