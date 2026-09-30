@@ -1,0 +1,62 @@
+@page
+@model UniversityLibraryMVC.Areas.Identity.Pages.Account.LoginModel
+@{
+    ViewData["Title"] = "Sign In";
+    ViewData["HidePageHeader"] = true;
+}
+
+<section class="auth-stage">
+    <div class="auth-story">
+        <div class="hero-brand">
+            <img src="~/Images/meu-university-logo.png" class="hero-logo" alt="Middle East University Logo" />
+            <span>Investor-ready library operations</span>
+        </div>
+        <h1>Sign in to control circulation, catalog growth, and member activity.</h1>
+        <p>
+            A cleaner command center for a modern university library: faster workflows, clearer data,
+            and a stronger digital experience for students and administrators.
+        </p>
+        <div class="auth-proof-grid">
+            <div><strong>Real-time</strong><span>loan tracking</span></div>
+            <div><strong>Secure</strong><span>role access</span></div>
+            <div><strong>Scalable</strong><span>cloud deploy</span></div>
+        </div>
+    </div>
+
+    <div class="auth-card">
+        <div class="auth-card-header">
+            <p class="eyebrow">Welcome Back</p>
+            <h2>Sign in</h2>
+            <span>Use your library administrator or member account.</span>
+        </div>
+
+        <form id="account" method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger mb-3" role="alert"></div>
+            <div class="form-floating mb-3">
+                <input asp-for="Input.Email" class="form-control" autocomplete="username" aria-required="true" placeholder="name@example.com" />
+                <label asp-for="Input.Email">Email address</label>
+                <span asp-validation-for="Input.Email" class="text-danger"></span>
+            </div>
+            <div class="form-floating mb-3">
+                <input asp-for="Input.Password" class="form-control" autocomplete="current-password" aria-required="true" placeholder="password" />
+                <label asp-for="Input.Password">Password</label>
+                <span asp-validation-for="Input.Password" class="text-danger"></span>
+            </div>
+            <div class="form-check mb-4">
+                <input class="form-check-input" asp-for="Input.RememberMe" />
+                <label class="form-check-label" asp-for="Input.RememberMe"></label>
+            </div>
+            <button id="login-submit" type="submit" class="btn btn-primary btn-lg w-100">
+                <i class="bi bi-box-arrow-in-right me-2"></i>Sign in
+            </button>
+            <div class="auth-switch">
+                New to the system?
+                <a asp-page="./Register" asp-route-returnUrl="@Model.ReturnUrl">Create an account</a>
+            </div>
+        </form>
+    </div>
+</section>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

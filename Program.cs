@@ -96,8 +96,8 @@ using (var scope = app.Services.CreateScope())
             await roleManager.CreateAsync(new IdentityRole("Member"));
 
        
-        var adminEmail = Environment.GetEnvironmentVariable("ADMIN_EMAIL");
-        var adminPassword = Environment.GetEnvironmentVariable("ADMIN_PASSWORD");
+        var adminEmail = Environment.GetEnvironmentVariable("ADMIN_EMAIL") ?? "admin@meu-library.com";
+        var adminPassword = Environment.GetEnvironmentVariable("ADMIN_PASSWORD") ?? "Admin@12345";
 
         if (!string.IsNullOrWhiteSpace(adminEmail) && !string.IsNullOrWhiteSpace(adminPassword))
         {
@@ -120,6 +120,9 @@ using (var scope = app.Services.CreateScope())
                     Console.WriteLine("Admin user created successfully");
                 }
             }
+
+            if (adminUser != null && !await userManager.IsInRoleAsync(adminUser, "Admin"))
+                await userManager.AddToRoleAsync(adminUser, "Admin");
         }
 
         await SeedUniversityBranding(context);
